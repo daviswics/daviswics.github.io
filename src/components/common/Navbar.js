@@ -10,9 +10,17 @@ const MyNavbar = () => {
     expand: "md",
     className: "navbarSection navbar-light py-1", //py-md-1 py-2 px-3",
   };
-  const navStyle = {
-    className: "navStyle mr-4 px-3",
-  };
+
+  const navOptions = [
+    {
+      key: "home",
+      value: "homeSectionId",
+    },
+    { key: "about", value: "aboutSectionId" },
+    { key: "events", value: "eventsSectionId" },
+    { key: "newsletter", value: "newsletterSectionId" },
+    { key: "contact", value: "contactSectionId" },
+  ];
 
   return (
     <Navbar {...navbarProps}>
@@ -32,51 +40,19 @@ const MyNavbar = () => {
       <Navbar.Toggle />
       <Navbar.Collapse>
         <Nav className="ml-auto px-3">
-          <Button
-            as={Link}
-            to="homeSectionId"
-            spy={true}
-            smooth={true}
-            {...navStyle}
-          >
-            home
-          </Button>
-          <Button
-            as={Link}
-            to="aboutSectionId"
-            spy={true}
-            smooth={true}
-            {...navStyle}
-          >
-            about
-          </Button>
-          <Button
-            as={Link}
-            to="eventsSectionId"
-            spy={true}
-            smooth={true}
-            {...navStyle}
-          >
-            events
-          </Button>
-          <Button
-            as={Link}
-            to="newsletterSectionId"
-            spy={true}
-            smooth={true}
-            {...navStyle}
-          >
-            newsletter
-          </Button>
-          <Button
-            as={Link}
-            to="contactSectionId"
-            spy={true}
-            smooth={true}
-            {...navStyle}
-          >
-            contact
-          </Button>
+          {navOptions.map((nav) => {
+            return (
+              <Button
+                as={Link}
+                to={`${nav.value}`}
+                spy={true}
+                smooth={true}
+                className="navStyle mr-4 px-3"
+              >
+                {nav.key}{" "}
+              </Button>
+            );
+          })}
         </Nav>
       </Navbar.Collapse>
     </Navbar>
