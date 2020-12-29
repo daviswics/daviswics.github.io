@@ -1,38 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
+
 .App {
-  text-align: center;
+  font-family: "Open Sans";
+  font-weight: 400;
+  background: transparent;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn-primary {
+  background-color: #f88ebc;
+  border-color: #f88ebc;
+  color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+  background-color: #f88ebc;
+  border-color: #f88ebc;
+}
+.btn-primary:hover {
+  background-color: #f88ebc;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+.navbarSection {
+  min-height: 10vh;
+  max-height: 20hv;
+  opacity: 0.95;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.navStyle {
+  background-color: transparent;
+  border: none;
+  font-weight: 600;
+}
+
+#wics-logo {
+  height: 8vh;
+}
+
+#main-heading {
+  font-weight: 600;
+}
+#sub-heading {
+  font-weight: 300;
+}
+
+#about-body {
   flex-direction: column;
-  align-items: center;
+}
+
+#about-logo {
+  width: 40vh;
+}
+
+#section-button {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.eventsSection {
+  background: url("./images/eventbackground-04.png");
+  padding: 1rem;
+  background-size: auto;
+}
+.events-bar {
+  background: #f88ebc;
+  width: 0.7rem;
+  height: auto;
+  margin: 1.5rem 2rem 1.5rem 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+#contact-icon {
+  width: 4rem;
+}
+
+/* Anything larger than a phone size */
+@media (min-width: 768px) {
+  .about-header {
+    font-size: 3.5rem;
   }
-  to {
-    transform: rotate(360deg);
+  #about-body {
+    /* background: transparent; */
+    flex-direction: row;
+    font-size: 1.2rem;
+  }
+  #about-logo-div {
+    width: 75%;
+  }
+  #section-button {
+    justify-content: flex-start;
+  }
+  .eventsSection {
+    padding: 3rem 2.5rem;
   }
 }
