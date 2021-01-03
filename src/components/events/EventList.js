@@ -1,28 +1,33 @@
 const eventList = [
   {
     id: 1,
-    date: "Date1",
-    name: "Event1",
+    date: "Jan. 11, 2020",
+    name: "👾Hackathon Tips",
+    // link: {zoom link here}
   },
   {
     id: 2,
-    date: "Date2",
-    name: "Event2",
+    date: "Jan. 25, 2020",
+    name: "📊Splunk",
+    // link: {zoom link here}
   },
   {
     id: 3,
-    date: "Date3",
-    name: "Name3",
+    date: "Feb. 8, 2020",
+    name: "🔬Research Into Research",
+    // link: {zoom link here}
   },
   {
     id: 4,
-    date: "Date4",
-    name: "Name4",
+    date: "Feb. 19, 2020",
+    name: "🍿Movie Night",
+    // link: {zoom link here}
   },
   {
     id: 5,
-    date: "Date5",
-    name: "Name5",
+    date: "Mar. 1, 2020",
+    name: "🔍Explore You CS Paths",
+    // link: {zoom link here}
   },
 ];
 

@@ -21,9 +21,16 @@ const Events = () => {
         <div className="events-list d-flex flex-column flex-grow-1">
           {EventList.map((event) => {
             return (
-              <h4 className="p-2" key={`${event.id}`}>
-                <b>{event.date}</b> {event.name}
-              </h4>
+              <div>
+                <h4 className="p-2" key={`${event.id}`}>
+                  <b> {event.date}</b> {event.name}
+                </h4>
+                <h5 className="pl-3">
+                  {" "}
+                  Join here:
+                  {/*{event.link} */}
+                </h5>
+              </div>
             );
           })}
         </div>
