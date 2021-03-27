@@ -25,7 +25,7 @@ const About = () => {
         >
           <p>
             <b>Women in Computer Science (WiCS) </b>
-            supports, empowers and motivates te growing community of women in
+            supports, empowers and motivates the growing community of women in
             computer science.
           </p>
 
