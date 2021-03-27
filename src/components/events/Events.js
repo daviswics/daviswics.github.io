@@ -23,10 +23,12 @@ const Events = () => {
             return (
               <div>
                 <h4 className="p-2" key={`${event.id}`}>
-                  <b> {event.date}</b> {event.name}
+                  <b> {event.name} </b> 
+                  <br />
                 </h4>
-                <h5 className="pl-3">
-                  {" "}
+                <h5 className="pl-5">
+                  {event.date} 
+                  <br />
                   Join here:
                   {/*{event.link} */}
                 </h5>

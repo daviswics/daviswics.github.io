@@ -1,34 +1,40 @@
 const eventList = [
   {
     id: 1,
-    date: "Jan. 11, 2020",
-    name: "👾Hackathon Tips",
+    date: "Mar. 30, 2021, 7-8PM PST",
+    name: "🎀Quarter Intro🎀",
     // link: {zoom link here}
   },
   {
     id: 2,
-    date: "Jan. 25, 2020",
-    name: "📊Splunk",
+    date: "Apr. 5, 2021, 6-7PM PST",
+    name: "📄Resume Review w/ Ridgeline📄",
     // link: {zoom link here}
   },
   {
     id: 3,
-    date: "Feb. 8, 2020",
-    name: "🔬Research Into Research",
+    date: "Apr. 12, 2021, 6-7PM PST",
+    name: "🟠API Workshop w/ Postman🟠",
     // link: {zoom link here}
   },
   {
     id: 4,
-    date: "Feb. 19, 2020",
-    name: "🍿Movie Night",
+    date: "Apr. 27, 2021 (tentative)",
+    name: "🍿Movie Night/Socials🪅",
     // link: {zoom link here}
   },
   {
     id: 5,
-    date: "Mar. 1, 2020",
-    name: "🔍Explore You CS Paths",
+    date: "May 11, 2021 (tentative)",
+    name: "💼Day in life of Tech Consultant w/ FAST Enterprise💼",
     // link: {zoom link here}
   },
+  {
+    id: 6,
+    date: "May 18, 2021 (tentative)",
+    name: "💻Product Management Workshop💻"
+    // link: {zoom link here}
+  }
 ];
 
 export default eventList;
