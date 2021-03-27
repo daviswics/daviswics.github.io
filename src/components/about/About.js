@@ -10,7 +10,7 @@ const About = () => {
       className="aboutSection d-flex flex-column p-2 m-2 mt-5 py-md-4 px-md-3 m-md-4"
       id="aboutSectionId"
     >
-      <Fade left delay={1000} duration={1500}>
+      <Fade left delay={500} duration={1500}>
         <h1 className="about-header mt-5" id="sub-heading">
           welcome! we are
         </h1>
@@ -21,7 +21,7 @@ const About = () => {
 
       <br />
       <div className="d-flex" id="about-body">
-        <Fade left delay={1000} duration={1500}>
+        <Fade left delay={500} duration={1500}>
         <div
           className="d-flex flex-column flex-grow-1 flex-wrap w-100 text-black pr-md-3"
           id="about-bio"
@@ -47,14 +47,14 @@ const About = () => {
           </p>
         </div>
         </Fade>
-        <Fade right delay={1000} duration={1500}>
+        <Fade right delay={500} duration={1500}>
         <div className="about-logo-div d-flex justify-content-center  px-md-2">
           <img src={AboutLogo} alt="wics circle logo" id="about-logo" />
         </div>
         </Fade>
       </div>
       <br />
-      <Fade left delay={1000} duration={1500}>
+      <Fade left delay={500} duration={1500}>
       <div className="d-flex" id="section-button">
         <a href="https://www.facebook.com/DavisWICS/">
           <Button className="rounded-pill px-4 text-white">
