@@ -10,12 +10,12 @@ const Events = () => {
       className="eventsSection mt-5" //p-2 m-2 py-md-4 px-md-3 m-md-4
       id="eventsSectionId"
     >
-      <div className="event-header mt-5">
+      <Fade left className="event-header mt-5">
         <h1 id="main-heading">Spring Quarter 2021</h1>
         <h3 id="sub-heading">
           Come out to our virtual events for this quarter!
         </h3>
-      </div>
+      </Fade>
       <br />
       <div className="events-body d-flex">
         <div className="events-bar"></div>

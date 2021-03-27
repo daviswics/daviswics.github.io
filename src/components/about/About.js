@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "react-bootstrap";
+import { Fade } from "react-reveal";
 
 import AboutLogo from "../../images/circlelogo-03.png";
 
@@ -9,16 +10,18 @@ const About = () => {
       className="aboutSection d-flex flex-column p-2 m-2 mt-5 py-md-4 px-md-3 m-md-4"
       id="aboutSectionId"
     >
-      <div>
+      <Fade left delay={1000} duration={2000}>
         <h1 className="about-header mt-5" id="sub-heading">
           welcome! we are
         </h1>
         <h1 className="about-header" id="main-heading">
           davis women in computer science
         </h1>
-      </div>
+      </Fade>
+
       <br />
       <div className="d-flex" id="about-body">
+        <Fade left delay={1000} duration={2000}>
         <div
           className="d-flex flex-column flex-grow-1 flex-wrap w-100 text-black pr-md-3"
           id="about-bio"
@@ -43,11 +46,15 @@ const About = () => {
             learn to code and working together to solve problems.
           </p>
         </div>
+        </Fade>
+        <Fade right delay={1000} duration={2000}>
         <div className="about-logo-div d-flex justify-content-center  px-md-2">
           <img src={AboutLogo} alt="wics circle logo" id="about-logo" />
         </div>
+        </Fade>
       </div>
       <br />
+      <Fade left delay={1000} duration={2000}>
       <div className="d-flex" id="section-button">
         <a href="https://www.facebook.com/DavisWICS/">
           <Button className="rounded-pill px-4 text-white">
@@ -56,6 +63,7 @@ const About = () => {
           </Button>
         </a>
       </div>
+      </Fade>
     </div>
   );
 };
