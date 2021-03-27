@@ -10,7 +10,7 @@ const Events = () => {
       id="eventsSectionId"
     >
       <div className="event-header mt-5">
-        <h1 id="main-heading">Winter Quarter 2021</h1>
+        <h1 id="main-heading">Spring Quarter 2021</h1>
         <h3 id="sub-heading">
           Come out to our virtual events for this quarter!
         </h3>
