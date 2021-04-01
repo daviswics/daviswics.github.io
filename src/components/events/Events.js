@@ -31,7 +31,11 @@ const Events = () => {
                 <h6 className="pl-5">
                   {event.date} 
                   <br />
-                  Click here to join: {event.link === "" ? " " : (<a href={event.link}> Here</a>) }
+                  <br />
+                  {event.link === "" ? (<p>{"Zoom link coming soon"}</p>) : 
+                  ( <p>Click here to join:
+                    <a href={event.link}> Here</a> 
+                    </p>) }
                   
                 </h6>
               </div>
