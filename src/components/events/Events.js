@@ -35,7 +35,7 @@ const Events = () => {
                   {event.link === "" ? (<p>{"Zoom link coming soon"}</p>) : 
                   ( <p>Click here to join:
                     <a href={event.link}> Here</a> 
-                    </p>) }
+                    </p>)}
                   
                 </h6>
               </div>
