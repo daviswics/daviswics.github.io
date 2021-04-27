@@ -21,19 +21,19 @@ const eventList = [
     id: 4,
     date: "Apr. 27, 2021 (tentative)",
     name: "🍿Game Night Socials",
-    link: ""
+    link: "https://ucdavis.zoom.us/j/4319656214"
   },
   {
     id: 5,
     date: "May 4, 2021, 7-8PM PT",
-    name: "💼Day in life of Tech Consultant w/ FAST Enterprise💼",
-    link: ""
+    name: "💼Day in life of Tech Consultant w/ FAST Enterprise",
+    link: "https://ucdavis.zoom.us/j/4319656214"
   },
   {
     id: 6,
     date: "May 18, 2021 (tentative)",
     name: "💻Product Management Workshop",
-    link: ""
+    link: "https://ucdavis.zoom.us/j/4319656214"
   }
 ];
 

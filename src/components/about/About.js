@@ -55,11 +55,17 @@ const About = () => {
       </div>
       <br />
       <Fade left delay={500} duration={1500}>
-      <div className="d-flex" id="section-button">
+      <div className="d-flex flex-column section-buttons">
         <a href="https://www.facebook.com/DavisWICS/">
-          <Button className="rounded-pill px-4 text-white">
+          <Button className="rounded-pill px-4  text-white">
             {" "}
-            <b>></b> get involved
+            <b>></b> join FB group
+          </Button>
+        </a>
+        <a href="https://discord.gg/MJrvEdvYjA">
+          <Button className="rounded-pill px-4 my-3 text-white">
+            {" "}
+            <b>></b> join discord 
           </Button>
         </a>
       </div>
