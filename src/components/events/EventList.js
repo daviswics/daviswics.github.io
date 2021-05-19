@@ -31,7 +31,7 @@ const eventList = [
   },
   {
     id: 6,
-    date: "May 18, 2021 (tentative)",
+    date: "May 25, 2021 6:30-7:30PM PT",
     name: "💻Product Management Workshop",
     link: "https://ucdavis.zoom.us/j/4319656214"
   }
