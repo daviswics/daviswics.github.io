@@ -5,8 +5,8 @@ import Home from "./components/home/Home";
 import About from "./components/about/About";
 import Events from "./components/events/Events";
 import Newsletter from "./components/newsletter/Newsletter";
-import Contact from "./components/contact/Contact";
 import Sponsers from "./components/sponsers/Sponsers";
+import Contact from "./components/contact/Contact";
 
 function App() {
   return (
@@ -16,8 +16,8 @@ function App() {
       <About />
       <Events />
       <Newsletter />
-      <Contact />
       <Sponsers />
+      <Contact />
     </div>
   );
 }
