@@ -6,6 +6,7 @@ import About from "./components/about/About";
 import Events from "./components/events/Events";
 import Newsletter from "./components/newsletter/Newsletter";
 import Contact from "./components/contact/Contact";
+import Sponsers from "./components/sponsers/Sponsers";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Events />
       <Newsletter />
       <Contact />
+      <Sponsers />
     </div>
   );
 }
