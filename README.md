@@ -23,7 +23,7 @@ And save it to github as usual
 
 `git push`
 
-NOTE: For this part, you need to be logged in with the davis wics github account
+NOTE: For this next part, you need to be logged in with the davis wics github account
 1. Go to settings
 2. Go to the Pages tab (located on the left) 
 3. Set the custom domain to "wics.engineering.ucdavis.edu"
