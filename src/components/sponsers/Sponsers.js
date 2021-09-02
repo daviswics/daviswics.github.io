@@ -13,6 +13,10 @@ const Sponsers = () => {
       <a href="https://www.numerade.com/">
         <img src={Numerade} alt="numerade sponser logo" id="numerade-logo" style="width:500px;height:600px;"/>
       </a>
+      <a href="https://www.w3schools.com">
+        <img border="0" alt="W3Schools" src={Numerade} width="100" height="100"/>
+      </a>
+      
       
     </div>
   );
