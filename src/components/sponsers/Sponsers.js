@@ -12,9 +12,9 @@ const Sponsers = () => {
       <a href="https://www.numerade.com/">
          <img alt="numerade-logo" src={Numerade} width="464.012738854" height="100"/>
       </a>
-      <h3 id="sub-heading">
+      <p>
         STEM homework and study destination with over 1,000,000 lesson videos taught by experts in subjects including physics, calculus, engineering, biology, chemistry, stats and more.
-      </h3>
+      </p>
     </div>
   );
 };
