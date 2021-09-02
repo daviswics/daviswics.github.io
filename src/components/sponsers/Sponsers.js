@@ -9,7 +9,11 @@ const Sponsers = () => {
     >
       <h1 id="main-heading">Sponsers</h1>
     
-      <img src={Numerade} alt="numerade sponser logo" id="numerade-logo" />
+
+      <a href="https://www.numerade.com/">
+        <img src={Numerade} alt="numerade sponser logo" id="numerade-logo" style="width:500px;height:600px;"/>
+      </a>
+      
     </div>
   );
 };
