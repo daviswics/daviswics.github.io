@@ -7,6 +7,8 @@ const Sponsers = () => {
       id="sponsersSectionId"
     >
       <h1 id="main-heading">Sponsers</h1>
+    
+      <img src={numerade.png} alt="numeradee sponser logo" id="numerade-logo" />
     </div>
   );
 };
