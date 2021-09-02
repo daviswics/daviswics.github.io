@@ -8,6 +8,10 @@ const Sponsers = () => {
       id="sponsersSectionId"
     >
       <h1 id="main-heading">Sponsers</h1>
+
+      <a href="https://www.qries.com/">
+         <img alt="numerade-logo" src={Numerade} width="150" height="70"/>
+      </a>
       
     </div>
   );
