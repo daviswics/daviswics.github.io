@@ -1,4 +1,5 @@
 import React from "react";
+import Numerade from "../../images/numerade.png";
 
 const Sponsers = () => {
   return (
@@ -8,7 +9,7 @@ const Sponsers = () => {
     >
       <h1 id="main-heading">Sponsers</h1>
     
-      <img src={numerade.png} alt="numeradee sponser logo" id="numerade-logo" />
+      <img src={Numerade} alt="numerade sponser logo" id="numerade-logo" />
     </div>
   );
 };
