@@ -13,7 +13,7 @@ const Events = () => {
       <Fade left className="event-header mt-5">
         <h1 id="main-heading">Spring Quarter 2021</h1>
         <h3 id="sub-heading">
-          Come out to our virtual events for this quarter!
+          Come out to our events for this quarter!
         </h3>
       </Fade>
       <br />
@@ -33,8 +33,7 @@ const Events = () => {
                   <br />
                   <br />
                   {event.link === "" ? (<p>{"Zoom link coming soon"}</p>) : 
-                  ( <p>Click here to join:
-                    <a href={event.link}> Here</a> 
+                  ( <p>Location: Chemistry 179 
                     </p>)}
                   
                 </h6>
