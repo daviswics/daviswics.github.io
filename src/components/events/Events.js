@@ -33,8 +33,9 @@ const Events = () => {
                   <br />
                   <br />
                   {event.link === "" ? (<p>{"Zoom link coming soon"}</p>) : 
-                  ( <p> Click here to join virtually:
-                    <a href={event.link}>Here</a> 
+                  ( <p> Location: Chemistry Building 179
+                    <br />
+                    <a href={event.link}>Join virtually</a> 
                     <br />
                     
                     <a href={event.link}>Location: Chemistry Building 179</a> 
