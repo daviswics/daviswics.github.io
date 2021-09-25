@@ -56,7 +56,7 @@ const Events = () => {
         <a href="https://www.facebook.com/DavisWICS/">
           <Button className="rounded-pill px-4 text-white">
             {" "}
-            <b>></b> events
+            <b></b> events
           </Button>
         </a>
       </div>
