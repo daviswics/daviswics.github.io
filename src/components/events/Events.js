@@ -33,12 +33,13 @@ const Events = () => {
                   <br />
                   <br />
                   {event.link === "" ? (<p>{"Zoom link coming soon"}</p>) : 
-                  ( <p> Location: Chemistry Building 179
+                  ( event.type === "in-person" ? (<p> Location: Chemistry Building 179
                     <br />
                     <a href={event.link}>Join virtually</a> 
                     <br />
                     
-                    </p>
+                    </p>) : (<a href={event.link}>Join virtually</a> )
+                  
                     )}
                   
                 </h6>
