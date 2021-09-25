@@ -38,8 +38,6 @@ const Events = () => {
                     <a href={event.link}>Join virtually</a> 
                     <br />
                     
-                    <a href={event.link}>Location: Chemistry Building 179</a> 
-                    
                     </p>
                     )}
                   
