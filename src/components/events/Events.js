@@ -13,7 +13,7 @@ const Events = () => {
       <Fade left className="event-header mt-5">
         <h1 id="main-heading">Fall Quarter 2021</h1>
         <h3 id="sub-heading">
-          Come out to our events for this quarter!
+          Come out to our events for this quarter! We will be having a mix of virtual and in-person meetings this quarter. All live in-person meeting can also be joined through Zoom.
         </h3>
       </Fade>
       <br />
@@ -33,8 +33,14 @@ const Events = () => {
                   <br />
                   <br />
                   {event.link === "" ? (<p>{"Zoom link coming soon"}</p>) : 
-                  ( <p>Location: Chemistry 179 
-                    </p>)}
+                  ( <p> Click here to join virtually:
+                    <a href={event.link}> Here</a>
+                    Location: Chemistry Building 179
+                    </p>
+                    
+                    
+                    
+                    )}
                   
                 </h6>
               </div>
