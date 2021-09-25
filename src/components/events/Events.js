@@ -13,11 +13,11 @@ const Events = () => {
       <Fade left className="event-header mt-5">
         <h1 id="main-heading">Fall Quarter 2021</h1>
         <h3 id="sub-heading">
-          Come out to our events for this quarter! We will be having a mix of virtual and in-person meetings this quarter. All live in-person meeting can also be joined through Zoom.
+          Come out to our events for this quarter! All in-person meetings can also be joined live through Zoom.
         </h3>
 
         <h5 id="sub-heading">
-          Events are subject to change
+          Events are subject to change.
         </h5>
       </Fade>
       <br />
