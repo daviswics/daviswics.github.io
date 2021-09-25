@@ -15,6 +15,10 @@ const Events = () => {
         <h3 id="sub-heading">
           Come out to our events for this quarter! We will be having a mix of virtual and in-person meetings this quarter. All live in-person meeting can also be joined through Zoom.
         </h3>
+
+        <h5 id="sub-heading">
+          Events are subject to change
+        </h5>
       </Fade>
       <br />
       <div className="events-body d-flex">
