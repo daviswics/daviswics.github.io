@@ -9,7 +9,7 @@ const Newsletter = () => {
       <h1 id="main-heading">Want to learn more?</h1>
       <h3 id="sub-heading">
         Sign up for our newsletter:{" "}
-        <a href="https://wics3.typeform.com/to/K2VoLZ"> Here</a>
+        <a href="https://tinyletter.com/wicsdavis"> Here</a>
       </h3>
     </div>
   );
