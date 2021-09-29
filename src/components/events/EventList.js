@@ -8,7 +8,7 @@ const eventList = [
   },
   {
     id: 2,
-    date: "Oct. 4, 2021, 7-8PM PT",
+    date: "Oct. 4, 2021, 7:30-8:30PM PT",
     name: "👩‍💻Decoding the Tech Recruitment Process",
     type: "in-person",
     link: "https://tinyurl.com/WomeninCSMeeting" 
