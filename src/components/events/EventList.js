@@ -44,6 +44,13 @@ const eventList = [
   {
     id: 7,
     date: "Nov 8, 2021 7-8PM PT",
+    name: "💡Google Technical Talk",
+    type: "in-person",
+    link: "https://tinyurl.com/WomeninCSMeeting"
+  },
+  {
+    id: 8,
+    date: "Nov 15, 2021 7-8PM PT",
     name: "🌯Tech Talks and Chipotle with Sandia Labs",
     type: "in-person",
     link: "https://tinyurl.com/WomeninCSMeeting"
@@ -51,7 +58,7 @@ const eventList = [
   {
     id: 8,
     date: "Nov 15, 2021 7-8PM PT",
-    name: "💗WiCS Social",
+    name: "📚Study Social",
     type: "in-person",
     link: "https://tinyurl.com/WomeninCSMeeting"
   }
