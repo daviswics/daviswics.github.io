@@ -57,7 +57,7 @@ const eventList = [
   },
   {
     id: 8,
-    date: "Nov 15, 2021 7-8PM PT",
+    date: "Nov 29, 2021 7-8PM PT",
     name: "📚Study Social",
     type: "in-person",
     link: "https://tinyurl.com/WomeninCSMeeting"
