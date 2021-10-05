@@ -16,7 +16,7 @@ const eventList = [
   {
     id: 3,
     date: "Oct. 11, 2021, 7-8PM PT",
-    name: "💼Interview Prep Workshop with ServiceNow",
+    name: "💼Navigating a Career Fair – Virtual and In-Person with ServiceNow (Dinner Provided!)",
     type: "in-person",
     link: "https://tinyurl.com/WomeninCSMeeting"
   },
