@@ -5,7 +5,6 @@ import Home from "./components/home/Home";
 import About from "./components/about/About";
 import Events from "./components/events/Events";
 import Newsletter from "./components/newsletter/Newsletter";
-import Sponsers from "./components/sponsers/Sponsers";
 import Contact from "./components/contact/Contact";
 
 function App() {
@@ -16,7 +15,6 @@ function App() {
       <About />
       <Events />
       <Newsletter />
-      <Sponsers />
       <Contact />
     </div>
   );
