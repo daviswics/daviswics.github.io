@@ -30,7 +30,7 @@ const eventList = [
   {
     id: 5,
     date: "Oct 25, 2021, 7-8PM PT",
-    name: "🖥Tech Careers Panel with Centene and New Relic",
+    name: "🖥Collaboration Event with Centene",
     type: "in-person",
     link: "https://tinyurl.com/WomeninCSMeeting"
   },
