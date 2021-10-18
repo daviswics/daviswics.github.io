@@ -23,7 +23,7 @@ const eventList = [
   {
     id: 4,
     date: "Oct. 18, 2021  7-8PM PT",
-    name: "💻 How to Create your own Website using GitHub Pages",
+    name: "WiCS Game Night",
     type: "in-person",
     link: "https://tinyurl.com/WomeninCSMeeting"
   },
