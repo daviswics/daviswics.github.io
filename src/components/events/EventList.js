@@ -45,7 +45,7 @@ const eventList = [
     id: 7,
     date: "Nov 8, 2021 7-8PM PT",
     name: "💡Google Technical Talk",
-    type: "in-person",
+    type: "virtual",
     link: "https://tinyurl.com/WomeninCSMeeting"
   },
   {
