@@ -11,8 +11,8 @@ const Newsletter = () => {
       🌱Joke of the Week Sneak Peek
       </h5>
       <p>
-        Q: What kind of microchip does this new vaccine contain, can I install a Linux based OS on it?💉 <br/>
-        A: I don't know for sure, but it must be ARM based.💪
+        Q: What kind of microchip does this new vaccine contain, can I install a Linux based OS on it? 💉 <br/>
+        A: I don't know for sure, but it must be ARM based 💪
       </p>
       <h5 id="sub-heading">
       🍓What's in the newsletter?
@@ -34,7 +34,7 @@ const Newsletter = () => {
       </p>
       <h3 id="sub-heading">
         {" "}
-        <a href="https://tinyletter.com/wicsdavis"> Link to TinyLetter Sign-Up Page</a>
+        <a href="https://tinyletter.com/wicsdavis"> Link to Newsletter Sign-Up Page</a>
       </h3>
     </div>
   );
