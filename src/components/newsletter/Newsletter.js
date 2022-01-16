@@ -26,7 +26,7 @@ const Newsletter = () => {
         support you! You can contact us by messaging us in the WiCS discord,
         shooting us a quick email, or filling out the newsletter feedback form:
         {" "}
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdnlof5ej1o3A0yfGyXYI3nGbzawvWp-XicfbHEFqigC2y7qA/viewform"> Feedback Form </a>
+        <a href="https://forms.gle/SXqWKEJJaMpJFx9L8"> Feedback Form </a>
       </p>
       <p>
         Sign up for our newsletter to receive meeting reminders, CS dad jokes,

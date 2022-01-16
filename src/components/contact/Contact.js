@@ -9,7 +9,7 @@ const Contact = () => {
     <div className="contactSection d-flex flex-column p-2 m-2 mt-5 py-md-4 px-md-3 m-md-4"
     id="contactSectionId"
     >
-     <h1 id="main-heading">Contact + Social Media Links</h1>
+     <h1 id="main-heading">Contact</h1>
       <h5 id="sub-heading">
       🍉Email
       </h5>
