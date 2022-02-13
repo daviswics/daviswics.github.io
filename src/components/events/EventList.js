@@ -17,27 +17,27 @@ const eventList = [
     },
     {
         id: 3,
-        date: "Feb. 8, 2022, 6-7PM PT",
+        date: "Feb. 13, 2022, 6-7PM PT",
         name: "👥HackDavis x WiCS: Maximize Your Hackathon and Find Teammates",
         type: "in-person",
         link: "http://tinyurl.com/wicswinter22",
-        location: "Walker 1310"
+        location: "Haring 1227"
     },
     {
         id: 4,
-        date: "Feb. 15, 2022, 6-7PM PT",
-        name: "🎨WiCS x Design Interactive Workshop",
-        type: "in-person",
-        link: "http://tinyurl.com/wicswinter22",
-        location: "Kemper 1127",
-    },
-    {
-        id: 5,
         date: "Feb. 22, 2022, 6-7PM PT",
         name: "💎Beading with WiCS for E-Week!",
         type: "in-person",
         link: "http://tinyurl.com/wicswinter22",
         location: "Kemper 1127"
+    },
+    {
+        id: 5,
+        date: "Feb. 28, 2022, 6-7PM PT",
+        name: "🎨WiCS x Design Interactive Study Social",
+        type: "in-person",
+        link: "http://tinyurl.com/wicswinter22",
+        location: "Kemper 1127",
     }
   ];
 
