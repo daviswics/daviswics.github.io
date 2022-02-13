@@ -17,7 +17,7 @@ const eventList = [
     },
     {
         id: 3,
-        date: "Feb. 13, 2022, 6-7PM PT",
+        date: "Feb. 15, 2022, 6-7PM PT",
         name: "👥HackDavis x WiCS: Maximize Your Hackathon and Find Teammates",
         type: "in-person",
         link: "http://tinyurl.com/wicswinter22",
@@ -33,7 +33,7 @@ const eventList = [
     },
     {
         id: 5,
-        date: "Feb. 28, 2022, 6-7PM PT",
+        date: "Feb. 28, 2022, 7-8PM PT",
         name: "🎨WiCS x Design Interactive Study Social",
         type: "in-person",
         link: "http://tinyurl.com/wicswinter22",
