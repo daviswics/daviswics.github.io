@@ -14,8 +14,6 @@ function App() {
       <MyNavbar />
       <Home />
       <About />
-      <Events />
-      <PastEvents />
       <Newsletter />
       <Contact />
     </div>
