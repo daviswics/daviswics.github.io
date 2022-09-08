@@ -46,7 +46,14 @@ const Contact = () => {
         <a href="https://www.facebook.com/DavisWICS/">Davis WiCS</a>
       </p>
       <h5 id="sub-heading">
-      🥀Website
+      🍓Give Page
+      </h5>
+      <p>
+        {" "}
+        <a href="https://give.ucdavis.edu/2423/23WCSCH">Give UC Davis</a>
+      </p>
+      <h5 id="sub-heading">
+      Website
       </h5>
       <p>
         {" "}

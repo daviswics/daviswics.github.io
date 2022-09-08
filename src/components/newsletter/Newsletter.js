@@ -18,15 +18,10 @@ const Newsletter = () => {
       🍓What's in the newsletter?
       </h5>
       <p>
-        We write the WiCS weekly newsletter to lighten your mood with a
-        Joke of the Week, challenge your coding skills with a Coding Challenge,
-        and offer opportunities to apply to Scholarships, Internships, and
-        attend Events from companies and other clubs at Davis.
-        We would love to hear your feedback and learn how we can better
-        support you! You can contact us by messaging us in the WiCS discord,
-        shooting us a quick email, or filling out the newsletter feedback form:
-        {" "}
-        <a href="https://forms.gle/SXqWKEJJaMpJFx9L8"> Feedback Form </a>
+        We write the WiCS weekly newsletter to lighten your mood with our
+        Joke of the Week, challenge your coding skills with a coding challenge,
+        and offer opportunities to apply to scholarships, internships, and
+        attend events from companies and other clubs at Davis.
       </p>
       <p>
         Sign up for our newsletter to receive meeting reminders, CS dad jokes,
