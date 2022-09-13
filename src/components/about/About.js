@@ -42,7 +42,7 @@ const About = () => {
           <p>
             Our mission is to create a platform where we can share ideas about
             our personal projects, promote interest in programming and go to
-            Hackathons. We want to create community of girls helping each other
+            hackathons. We want to create community of girls helping each other
             learn to code and working together to solve problems.
           </p>
         </div>

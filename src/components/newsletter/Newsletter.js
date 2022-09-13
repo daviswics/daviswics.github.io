@@ -27,10 +27,10 @@ const Newsletter = () => {
         Sign up for our newsletter to receive meeting reminders, CS dad jokes,
         internship/scholarship opportunities, and tech event/conference invites.
       </p>
-      <h3 id="sub-heading">
+      <h5 id="sub-heading">
         {" "}
         <a href="https://tinyletter.com/wicsdavis"> Link to Newsletter Sign-Up Page</a>
-      </h3>
+      </h5>
     </div>
   );
 };

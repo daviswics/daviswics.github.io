@@ -15,6 +15,7 @@ function App() {
       <Home />
       <About />
       <Newsletter />
+      <Events/>
       <Contact />
     </div>
   );

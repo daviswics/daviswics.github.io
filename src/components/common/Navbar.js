@@ -17,9 +17,9 @@ const MyNavbar = () => {
       value: "homeSectionId",
     },
     { key: "about", value: "aboutSectionId" },
-    { key: "events", value: "eventsSectionId" },
     { key: "newsletter", value: "newsletterSectionId" },
     { key: "contact", value: "contactSectionId" },
+    { key: "events", value: "eventsSectionId" },
   ];
 
   return (
