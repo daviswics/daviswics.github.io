@@ -12,15 +12,15 @@ const Events = () => {
     >
       <Fade left className="event-header mt-5">
         <h1 id="main-heading">Events</h1>
-        <h3 id="sub-heading">
-        WiCS hosts a wide variety of events, including socials, company events, and workshops. Join our discord to keep up to date on our upcoming events. Typically all in-person meetings can also be joined live through Zoom. If you are a company interested in hosting an event with us, please contact us at wicsdavis@gmail
-        </h3>
-
         <h5 id="sub-heading">
-          Events are subject to change.
+        WiCS hosts a wide variety of events, including socials, company events, and workshops. Join our discord to keep up to date on our upcoming events. Typically all in-person meetings can also be joined live through Zoom. If you are a company interested in hosting an event with us, please contact us at wicsdavis@gmail.com.
         </h5>
+
+        {/* <h5 id="sub-heading">
+          Events are subject to change.
+        </h5> */}
       </Fade>
-      <br />
+      {/* <br />
       <div className="events-body d-flex">
         <div className="events-bar"></div>
         <Fade top cascade duration={1000} distance="140%">
@@ -52,7 +52,7 @@ const Events = () => {
         </div>
         </Fade>
       </div>
-      <br />
+      <br /> */}
       <br />
       <div className="d-flex" id="section-button">
         <a href="https://www.facebook.com/DavisWICS/">
