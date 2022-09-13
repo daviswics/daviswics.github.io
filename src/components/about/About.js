@@ -62,16 +62,16 @@ const About = () => {
             <b>></b> join discord 
           </Button>
         </a>
-        <a href="https://give.ucdavis.edu/2423/23WCSCH">
-          <Button className="rounded-pill px-4 my-3 text-white">
-            {" "}
-            <b>></b> give to wics
-          </Button>
-        </a>
         <a href="https://www.facebook.com/DavisWICS/">
           <Button className="rounded-pill px-4 my-3 text-white">
             {" "}
             <b>></b> join FB group
+          </Button>
+        </a>
+        <a href="https://give.ucdavis.edu/2423/23WCSCH">
+          <Button className="rounded-pill px-4 my-3 text-white">
+            {" "}
+            <b>></b> give to wics
           </Button>
         </a>
       </div>
