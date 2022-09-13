@@ -12,9 +12,7 @@ const Events = () => {
     >
       <Fade left className="event-header mt-5">
         <h1 id="main-heading">Events</h1>
-        <h5 id="sub-heading">
-        WiCS hosts a wide variety of events, including socials, company events, and workshops. Join our discord to keep up to date on our upcoming events. Typically all in-person meetings can also be joined live through Zoom. If you are a company interested in hosting an event with us, please contact us at wicsdavis@gmail.com.
-        </h5>
+        <p>WiCS hosts a wide variety of events, including socials, company events, and workshops. Join our discord to keep up to date on our upcoming events. Typically all in-person meetings can also be joined live through Zoom. If you are a company interested in hosting an event with us, please contact us at wicsdavis@gmail.com.</p>        
 
         {/* <h5 id="sub-heading">
           Events are subject to change.
@@ -55,10 +53,10 @@ const Events = () => {
       <br /> */}
       <br />
       <div className="d-flex" id="section-button">
-        <a href="https://www.facebook.com/DavisWICS/">
+        <a href="https://discord.gg/MJrvEdvYjA">
           <Button className="rounded-pill px-4 text-white">
             {" "}
-            <b></b> facebook
+            <b></b> discord
           </Button>
         </a>
       </div>
