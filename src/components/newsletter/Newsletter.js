@@ -31,6 +31,10 @@ const Newsletter = () => {
         {" "}
         <a href="https://tinyletter.com/wicsdavis"> Link to Newsletter Sign-Up Page</a>
       </h5>
+      <h5 id="sub-heading">
+        {" "}
+        <a href="https://docs.google.com/document/d/1ZXFzzfc1ZXmhT-OK1NW_cWnopbmeuol9Eet1NTqmNeQ/edit?usp=sharing"> WiCS New Student Guide to CS</a>
+      </h5>
     </div>
   );
 };
