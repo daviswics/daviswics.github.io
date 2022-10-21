@@ -32,7 +32,7 @@ const MyNavbar = () => {
         spy={true}
         smooth={true}
       >
-        <Button className="bg-transparent" style={{ border: "none" }}>
+        <Button className="bg-transparent">
           <img src={Logo} alt="wics logo" id="wics-logo" />{" "}
           {/*would be better if the logo was black instead of white */}
         </Button>
