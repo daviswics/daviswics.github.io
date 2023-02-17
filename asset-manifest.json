@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.45f0857b.css",
+    "main.js": "/static/js/main.76025f9e.js",
+    "static/js/787.f966fae4.chunk.js": "/static/js/787.f966fae4.chunk.js",
+    "static/media/wicswebsitedesign-01.png": "/static/media/wicswebsitedesign-01.e671628b30efb70bb562.png",
+    "static/media/eventbackground-04.png": "/static/media/eventbackground-04.acfd0b19c3217045df16.png",
+    "static/media/insta_icon-01.png": "/static/media/insta_icon-01.b602c258224d3e42232e.png",
+    "static/media/circlelogo-03.png": "/static/media/circlelogo-03.352931991c9f0bc54766.png",
+    "static/media/email_icon-01.png": "/static/media/email_icon-01.92d3b4ee0fbde2b3ef4b.png",
+    "static/media/wicslogowhite-02.png": "/static/media/wicslogowhite-02.386167b252f25b2802f5.png",
+    "static/media/wicsfbicon-01.png": "/static/media/wicsfbicon-01.0b84c10b80d3a690b723.png",
+    "index.html": "/index.html",
+    "main.45f0857b.css.map": "/static/css/main.45f0857b.css.map",
+    "main.76025f9e.js.map": "/static/js/main.76025f9e.js.map",
+    "787.f966fae4.chunk.js.map": "/static/js/787.f966fae4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.45f0857b.css",
+    "static/js/main.76025f9e.js"
+  ]
+}
