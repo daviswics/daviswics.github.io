@@ -65,3 +65,4 @@ const pastEventList = [
   ];
   
   export default pastEventList;
+  
